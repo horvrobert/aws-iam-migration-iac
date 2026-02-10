@@ -1,0 +1,79 @@
+########################################
+# Terraform Build Artifacts
+########################################
+
+# Local Terraform working directories
+**/.terraform/
+**/.terraform/*
+.terraform/
+
+# Terraform state files (sensitive)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file (optional to commit)
+# ❗ COMMIT this file for reproducible builds
+# Ignore if you prefer not to pin provider versions
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform plan output (may contain secrets)
+*.tfplan
+
+# Local variable files (NEVER commit secrets)
+*.tfvars
+*.tfvars.json
+
+
+########################################
+# Environment / Secrets
+########################################
+
+# Environment files
+.env
+.env.*
+.envrc
+
+
+########################################
+# Editor / IDE / OS Junk Files
+########################################
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim / Emacs / Swap
+*.swp
+*.swo
+*~
+
+# macOS Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+########################################
+# Logs / Temp
+########################################
+*.log
+*.tmp
+*.temp
+diagrams/
+screenshots/
+README.md
