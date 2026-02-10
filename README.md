@@ -117,7 +117,7 @@ The EC2 instance successfully registers as a managed node and is reachable witho
 
 The EC2 security group has no inbound rules; all access is outbound-initiated.
 
-![EC2 security group](screenshots/ec2-sg.png)
+![EC2 security group](screenshots/ec2_sg.png)
 
 ---
 
