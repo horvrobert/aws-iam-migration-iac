@@ -48,24 +48,10 @@ crash.*.log
 .vscode/
 .history/
 
-# JetBrains
-.idea/
-*.iml
-
-# Vim / Emacs / Swap
-*.swp
-*.swo
-*~
-
 # macOS Finder
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Windows junk files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
 
 
 ########################################
